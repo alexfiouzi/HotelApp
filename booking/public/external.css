@@ -1,0 +1,209 @@
+#favicon{
+  position:absolute;
+  top:15px;
+  left:24px; 
+  color:black; 
+}
+
+#button{
+    position:absolute;
+    width:120px;
+    right:33px;
+    color:white;
+    background-color: blue;
+}
+
+html,body{
+box-sizing: border-box;
+max-width:100%;
+
+}
+
+  input[type="range"] {
+    width:473px;
+  }
+
+  .par{
+      color:white;
+  }
+
+  .map-container{
+ 
+    height:20px;
+    }
+
+    .map-container iframe{
+    height:10%;
+    width:30%;
+    position:absolute;
+    }
+
+    #sort{
+        position:absolute;
+     height:10%;   
+    left: 210px;
+    top: 36px;
+    font-weight:bold;
+    color:black;
+    }
+
+    #downdrop{
+        padding:30px;
+    }
+
+    #location{
+        padding-left: 210px;
+    }
+
+  #keyword{
+  padding-left:30px;
+  }
+
+  form{
+    padding:5px;
+  }
+
+  #information{
+    position: absolute;
+    right: 227px;
+    bottom: 55px;
+    color: grey;
+  }
+
+  #date{
+      padding:5px;
+  }
+
+  .vl {
+    border-left: 1px solid;
+    height: 291px;
+    position: absolute;
+    left: 55%;
+    margin-left: -3px;
+    top: 0;
+    opacity:0.3;
+    color:grey;
+  }
+  .v2 {
+    border-left: 1px solid;
+    height: 291px;
+    position: absolute;
+    left: 65%;
+    margin-left: -3px;
+    top: -20px;
+    opacity:0.3;
+    color:grey;
+  }
+
+  .stars-outer {
+    position: relative;
+    display: inline-block;
+}
+
+.stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+}
+
+.stars-outer::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #ccc;
+}
+
+.stars-inner::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #f8ce0b;
+}
+
+ .bg-filter{
+    color: white !important;
+    border-color:  #3e4953 !important;
+    background-color: #3e4953 !important;
+  }
+
+  .color{
+    background-color: #3e4953 !important;
+    color: white !important;
+  } 
+
+  .map-container iframe {
+    height: 13%;
+    width: 30%;
+    position: absolute;
+    margin: 10px;
+}
+
+#drop{
+    padding:30px;
+    margin-top: 10px;
+}
+
+#map{
+    margin-left:0px;
+    margin-right:0px;
+}
+
+#rec{
+    margin-left: 241px; 
+}
+
+.card{
+    margin-top:10px;
+}
+
+.slid{
+    border-right:1px solid;
+}
+
+#roomtype{
+    top:12px;
+}
+
+#website{
+    text-align:center;
+    color:green;
+}
+#price{
+    font-weight:bold;
+    font-size: xx-large;
+}
+#night{
+    color:blue;
+}
+
+#state{
+    width:93px;
+}
+
+.grey{
+    color:grey;
+    font-size: 16px;
+}
+
+.bold{
+    font-weight:bold;  
+}
+
+#deal{
+    margin-left: -16px;
+    margin-bottom: -1px;
+}
+
+#v3{
+     border-top: 1px solid;
+      left: 26px;
+      opacity: 0.3;
+      color: grey;
+      width: 208px;
+      position: absolute;
+      left: -51px;
+      height: 55%;
+  }
